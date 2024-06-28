@@ -4,12 +4,11 @@ using UnrealBuildTool;
 
 public class TechLevNetworking : ModuleRules
 {
-	public TechLevNetworking(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+    public TechLevNetworking(ReadOnlyTargetRules Target) : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "EnhancedInput",  "OnlineSubsystem",
-            "OnlineSubsystemUtils", "UMG" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "EnhancedInput", "OnlineSubsystem", "OnlineSubsystemUtils", "UMG" });
 
         PrivateDependencyModuleNames.AddRange(new string[] { });
 
